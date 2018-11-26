@@ -30,6 +30,10 @@ public class Guesser{
 
     public Guesser(int low, int high)
     {
+        if(low >= high)
+        {
+            throw new IllegalArgumentException("The first number must be lower than the second!");
+        }
         this.low = low;
         this.high = high;
     }
@@ -122,6 +126,12 @@ public class Guesser{
 
         System.out.println("You were thinking about " + guess + " (took me " + numberOfGuesses +
                 " guesses)");
+    }
+
+    @Override
+    public String toString()
+    {
+        return String.format("Low: %d \nHigh: %d", low, high);
     }
 
 }
