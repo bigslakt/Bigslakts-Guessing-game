@@ -71,10 +71,10 @@ public class Guesser{
         // write an error message, and read a new reply.
         // When you have gotten a valid reply, return it.
         do {
-
+            System.out.println("Type T or F:");
             reply = sc.next();
 
-            if(!reply.equalsIgnoreCase("T") || !reply.equalsIgnoreCase("F"))
+            if(!reply.equalsIgnoreCase("T") && !reply.equalsIgnoreCase("F"))
             {
                 System.out.println("You have to type T or F");
             }
@@ -90,16 +90,18 @@ public class Guesser{
     }
 
     private void doGuesses(){
-        int i=0; // number of guesses
-        int middle=0;
-        while(low<high){
+
+        int i = 0; // number of guesses
+        int middle = 0;
+
+        while(low < high){
             // Set next guess to the middle between
             // current low and current high
-            middle=low + (high-low)/2;
+            middle = low + (high-low)/2;
 
-            System.out.println("Is the number less than or equal to " +
-                    middle + "?");
+            System.out.println("Is the number less than or equal to " + middle + "?");
             String reply = getReply();
+
             if("T".equals(reply)){
                 // The number is less than or equal to middle
                 // so we move down high to middle
@@ -117,9 +119,8 @@ public class Guesser{
     }
 
     private void answer(int guess, int numberOfGuesses){
-        System.out.println("You were thinking about " +
-                guess +
-                " (took me " + numberOfGuesses +
+
+        System.out.println("You were thinking about " + guess + " (took me " + numberOfGuesses +
                 " guesses)");
     }
 
