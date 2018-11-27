@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b83c8276-e1a8-4d15-8945-3051b3cff84d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Guesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Guesser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessingGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestGuesser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,23 +35,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1450" />
+          <entry key="java" value="1457" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1450" />
+          <entry key="JAVA" value="1457" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Guesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+            <state relative-caret-position="204">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3745#3746#0" expanded="true" />
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GuessingGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -97,9 +95,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore.txt" />
-        <option value="$PROJECT_DIR$/src/Guesser.java" />
         <option value="$PROJECT_DIR$/src/TestGuesser.java" />
         <option value="$PROJECT_DIR$/src/GuessingGame.java" />
+        <option value="$PROJECT_DIR$/src/Guesser.java" />
       </list>
     </option>
   </component>
@@ -137,7 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543279857929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543280391544" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestGuesser">
+  <component name="RunManager" selected="Application.GuessingGame">
     <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessingGame" />
       <module name="Inlämningsuppgift2" />
@@ -172,8 +170,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestGuesser" />
         <item itemvalue="Application.GuessingGame" />
+        <item itemvalue="Application.TestGuesser" />
       </list>
     </recent_temporary>
   </component>
@@ -234,18 +232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Guesser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3745#3746#0" expanded="true" />
-            <element signature="e#3812#3813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGuesser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
@@ -255,8 +241,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessingGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Guesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3745#3746#0" expanded="true" />
+            <element signature="e#3812#3813#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
