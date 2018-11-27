@@ -69,26 +69,22 @@ public class Guesser{
      * the player.
      */
     private String getReply(){
-        String reply = null;
+        String reply;
+
         // Write code here which reads a String from the console.
         // As long as it is not a valid reply (one of "T" and "F")
         // write an error message, and read a new reply.
         // When you have gotten a valid reply, return it.
-        do {
-            System.out.println("Type T or F:");
+        System.out.println("Type T or F:");
+        reply = sc.next();
+
+        while(!reply.equalsIgnoreCase("T") && !reply.equalsIgnoreCase("F")) {
+
+            System.out.println("You have to type T or F!");
+            System.out.println("Try again:");
+
             reply = sc.next();
-
-            if(!reply.equalsIgnoreCase("T") && !reply.equalsIgnoreCase("F"))
-            {
-                System.out.println("You have to type T or F");
-            }
-
-            else
-            {
-                break;
-            }
-
-        }while(true);
+        }
 
         return reply;
     }
@@ -131,7 +127,7 @@ public class Guesser{
     @Override
     public String toString()
     {
-        return String.format("Low: %d \nHigh: %d", low, high);
+        return String.format("Low: %d High: %d", low, high);
     }
 
 }
